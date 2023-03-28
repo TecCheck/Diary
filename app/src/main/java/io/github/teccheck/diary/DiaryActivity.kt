@@ -18,6 +18,10 @@ class DiaryActivity : DiaryBaseActivity() {
                     startActivity(Intent(this, DiaryListActivity::class.java))
                     true
                 }
+                R.id.action_about -> {
+                    startActivity(Intent(this, AboutActivity::class.java))
+                    true
+                }
                 else -> false
             }
         }

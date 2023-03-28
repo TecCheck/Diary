@@ -7,4 +7,5 @@
 
     <string name="diary_entries">Einträge</string>
     <string name="input_hint">Schreib, was du denkst…</string>
+    <string name="source_code">Source Code</string>
 </resources>

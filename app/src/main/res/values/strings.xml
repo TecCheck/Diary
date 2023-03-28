@@ -7,4 +7,7 @@
 
     <string name="diary_entries">Diary list</string>
     <string name="input_hint">Start typing your thoughts…</string>
+    <string name="source_code">Source code</string>
+
+    <string name="source_code_url" translatable="false">https://github.com/TecCheck/Diary</string>
 </resources>
