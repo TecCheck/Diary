@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tagebuch</string>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_about">Über</string>
+
+    <string name="diary_entries">Einträge</string>
+    <string name="input_hint">Schreib, was du denkst…</string>
+</resources>

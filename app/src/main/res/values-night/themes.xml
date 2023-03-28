@@ -1,0 +1,16 @@
+<resources>
+    <!-- Material 2 Theme -->
+    <style name="Theme.Diary.Material2" parent="Theme.Diary.Material2.Base">
+        <item name="android:colorBackground">@color/theme_background_dark</item>
+        <item name="android:statusBarColor">@color/theme_background_dark</item>
+    </style>
+
+    <style name="Style.Diary.Material2.Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="android:background">@color/theme_background_dark</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Style.Diary.Material2.NavView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="android:background">@color/theme_background_dark</item>
+    </style>
+</resources>

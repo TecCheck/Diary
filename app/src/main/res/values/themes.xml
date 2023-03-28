@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Material 2 Theme -->
+    <style name="Theme.Diary.Material2.Base" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryVariant">@color/theme_primary_dark</item>
+        <item name="colorOnPrimary">@color/theme_on_primary</item>
+
+        <item name="colorSecondary">@color/theme_primary</item>
+        <item name="colorSecondaryVariant">@color/theme_primary_dark</item>
+        <item name="colorOnSecondary">@color/theme_on_primary</item>
+
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+
+        <item name="materialToolbarStyle">@style/Style.Diary.Material2.Toolbar</item>
+        <item name="appBarLayoutStyle">@style/Style.Diary.Material2.AppBarLayout</item>
+    </style>
+
+    <style name="Theme.Diary.Material2" parent="Theme.Diary.Material2.Base">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <style name="Style.Diary.Material2.Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Style.Diary.Material2.AppBarLayout" parent="Widget.MaterialComponents.AppBarLayout.Surface" />
+</resources>
