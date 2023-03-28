@@ -22,6 +22,10 @@ class DiaryActivity : DiaryBaseActivity() {
                     startActivity(Intent(this, AboutActivity::class.java))
                     true
                 }
+                R.id.action_settings -> {
+                    startActivity(Intent(this, SettingsActivity::class.java))
+                    true
+                }
                 else -> false
             }
         }

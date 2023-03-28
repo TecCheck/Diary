@@ -8,4 +8,10 @@
     <string name="diary_entries">Einträge</string>
     <string name="input_hint">Schreib, was du denkst…</string>
     <string name="source_code">Source Code</string>
+
+    <string name="preferences_import_export">Importieren/Exportieren (zur Zeit im Bau)</string>
+    <string name="preference_import">Tagebuch importieren</string>
+    <string name="preference_export">Tagebuch exportieren</string>
+
+    <string name="not_yet_implemented">Noch nicht eingebaut</string>
 </resources>
